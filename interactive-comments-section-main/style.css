@@ -1,0 +1,252 @@
+*,
+html,
+root,
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* height: 100vh; */
+    /* width: 100vw; */
+}
+
+.mainContainer {
+    /* border: 2px solid red; */
+    margin: auto;
+    width: 100vw;
+    background-color: hsl(228, 33%, 97%);
+}
+
+.wraper {
+    /* border: 2px solid red; */
+    margin: auto;
+    width: 60%;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.totalCommentSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.countingSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 5px;
+    align-items: center;
+    background-color: hsl(228, 33%, 97%);
+    width: 5%;
+    border-radius: 10px;
+    margin: 10px;
+    float: left;
+
+}
+.countingSection button{
+    cursor: pointer;
+}
+.countingSection svg {
+    /* width: 30%; */
+    margin: 10px;
+    /* cursor: pointer; */
+
+    /* text-align:center ;
+    margin: auto;
+    width: 10%; */
+    /* display: inline-block; */
+}
+
+.countingSection span {
+    /* width: 30%; */
+    margin: 10px;
+    color: hsl(238, 40%, 52%);
+    font-weight: 700;
+    font-family: 'Ingrid Darling', cursive;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-family: 'Rubik', sans-serif
+}
+
+.userCommentSection {
+    /* border: 2px solid yellow; */
+    /* margin: auto; */
+    padding: 5px;
+    width: 85%;
+    /* margin-top: -58px; */
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+}
+.timepassed{
+    font-family: 'Ingrid Darling', cursive;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    color: hsl(211, 10%, 45%);
+}
+.userInfo1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
+    width: 7%;
+}
+.userInfo1 img{
+    width: 100%;
+}
+
+/* .userInfo .uimage img { */
+    /* width: 35%; */
+    /* display: inline-block; */
+
+/* } */
+
+.userInfo .uname {
+    font-family: 'Ingrid Darling', cursive;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+}
+
+.userInfo .timepassed {
+    font-family: 'Ingrid Darling', 'cursive';
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+
+.rplybtn {
+    display: block;
+    margin: 5px;
+}
+
+.rplybtn button {
+    color: hsl(238, 40%, 52%);
+    font-family: 'Ingrid Darling', cursive;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    border: none;
+    font-size: 16px;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: hsl(0, 0%, 100%);
+    cursor: pointer;
+
+}
+.userComments{
+    font-family: 'Ingrid Darling', cursive;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    padding: 3px;
+    font-size: 16px;
+    color: hsl(211, 10%, 45%);
+    margin-top: 10px;
+}
+
+
+
+/* ////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////// */
+.total-comment-section{
+    width: 60%;
+    margin: auto;
+    padding: 25px;
+    background-color: white;
+    margin-top: 10px;
+    /* height: 155px; */
+}
+.counting-section{
+    float: left;
+    width: 6%;
+    background-color: aliceblue;
+    text-align: center;
+    padding: 0px 0px;
+    border-radius: 5px;
+
+}
+.counting-section button,div {
+    padding: 0px 0px;
+}
+
+.positive-btn {
+    width: 12px;
+    height: 16px;
+    margin: 14px 0px;
+    background-image: url("./images/icon-plus.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border: none;
+}
+.negetive-btn{
+    margin: 20px 0px;
+    width: 12px;
+    height: 3px;
+    border: none;
+    background-image: url("./images/icon-minus.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+
+.user-comment-sec,.user-reply-sec{
+    margin-left: 50px;
+}
+.user-details{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.user-details img{
+    width: 15%;
+
+}
+.user-name-image{
+    flex-basis: 280px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: start;
+    align-items: center;
+}
+
+.user-name{
+    margin-left: 13px;
+}
+
+.time-passed{
+    margin-left: 20px;
+    color: #7f8081;
+}
+
+.user-comment,.user-reply{
+    padding: 18px 0px;
+}
+.total-reply-section{
+    width: 46%;
+    /* margin: auto; */
+    padding: 25px;
+    background-color: white;
+    margin-top: 10px;
+    height: 155px;
+    margin-left: 388px;
+}
